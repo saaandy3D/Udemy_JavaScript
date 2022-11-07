@@ -107,7 +107,7 @@ console.log(num3);
 let num4 = 20;
 num4 /= 10;
 console.log(num4);
-*/
+
 
 //演習問題
 
@@ -115,4 +115,11 @@ let weight = 60;
 let height = 1.7;
 
 let bmi = weight / (height * height);
-console.log(bmi);
+console.log(bmi); */
+
+let num = 10 ;
+num++;
+console.log(num);
+
+num--;
+console.log(num);
