@@ -327,7 +327,6 @@ switch(num) {
 	  console.log('想定外の数値です。');
 	  break;
 }
-*/
 
 //undefined 未定義。変数を宣言したが、値は代入していない状態。
 let x;
@@ -343,3 +342,9 @@ if (x === undefined) {
 if (item === null) {
 	console.log('nullです');
 }
+*/
+
+//三項演算子 条件式 ? trueの場合 : falseの場合
+let age = 19
+let beverage = ( age >= 20 ) ? 'ビール' : 'コーラ';
+console.log(beverage);
