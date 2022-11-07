@@ -204,7 +204,6 @@ if (b){
 }
 
 console.log(!b)
-*/
 
 let num = 100; //数値型
 let str = '100'; //文字列型
@@ -219,4 +218,20 @@ if (num === str) {
 	console.log('同じ');
 } else {
 	console.log('同じではない')
+}
+*/
+
+//演習問題
+//①
+let weight = 60;
+let height = 1.7;
+let bmi = weight / (height * height);
+console.log(bmi)
+//②
+if (bmi >= 25) {
+	console.log('肥満');
+} else if (bmi >= 18.5) {
+	console.log('普通');
+} else {
+	console.log('痩せ');
 }
