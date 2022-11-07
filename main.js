@@ -277,7 +277,6 @@ if (num % 2 === 0) {
 if ((num % 2 === 0) && (num % 3 === 0)) {
 	console.log(`${num}は、2の倍数、かつ、3の倍数です`);
 }
-*/
 
 //例題
 let num = 3 ;
@@ -301,3 +300,33 @@ switch(num) {
 	  console.log('選外');
 	  break;
 }
+*/
+
+//演習問題
+
+//let num = 4
+let num = Math.floor(Math.random() * 5 + 1);
+// 		     Math.random() * (max - mini + 1) + min; 
+console.log(num);
+switch(num) {
+	case 1:
+	  console.log('大吉');
+	  break;
+	case 2:
+	  console.log('中吉');
+	  break;
+	case 3:
+	  console.log('小吉');
+	  break;
+	case 4:
+	  console.log('吉');
+	  break;
+	case 5:
+	  console.log('区');
+	  break;
+	default:
+	  console.log('想定外の数値です。');
+	  break;
+}
+		
+	  
