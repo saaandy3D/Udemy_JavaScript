@@ -234,7 +234,6 @@ if (bmi >= 25) {
 } else {
 	console.log('痩せ');
 }
-*/
 
 // && 論理AND
 console.log(true && true);
@@ -259,4 +258,23 @@ let hasGoldLicence = true;
 
 if (hasDriversLicence && hasGoldLicence){
 	console.log('あなたは優良ドライバーです');
+}
+*/
+
+//例題
+let num = 12;
+if (num % 2 === 0) {
+	if (num % 3 === 0) {
+		console.log(`${num}は、2の倍数、かつ、3の倍数です`);
+	} else {
+		console.log(`${num}は、2の倍数ではあるが、3の倍数ではないです`);
+	}
+} else if (num % 3 === 0) {
+	console.log(`${num}は、2の倍数ではないが、3の倍数です`);
+} else {
+	console.log(`${num}は、2の倍数でも3の倍数でもないです`);
+}
+
+if ((num % 2 === 0) && (num % 3 === 0)) {
+	console.log(`${num}は、2の倍数、かつ、3の倍数です`);
 }
