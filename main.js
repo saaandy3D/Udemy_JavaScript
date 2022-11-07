@@ -169,7 +169,6 @@ if (g >= 100) {
 } else {
 	console.log('100以上では無い');
 }
-*/
 
 //例題
 // if /else if / else
@@ -185,4 +184,15 @@ if (x >= 90) {
 } else {
 	console.log('D');
 }
+*/
 
+let birthYear = '2000';
+let age = 18;
+console.log(birthYear + age);
+console.log(age + birthYear);
+
+console.log(Number(birthYear) + age);
+console.log(Number('Nakamura') + age);
+
+console.log(age + '歳');
+console.log(String(age) + '歳');
