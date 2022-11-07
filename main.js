@@ -123,7 +123,6 @@ console.log(num);
 
 num--;
 console.log(num);
-*/
 
 let temperature = 29;
 if (temperature > 28) {
@@ -170,6 +169,20 @@ if (g >= 100) {
 } else {
 	console.log('100以上では無い');
 }
+*/
 
+//例題
+// if /else if / else
 
+let x = 60;
+
+if (x >= 90) {
+	console.log('A');
+} else if (x >= 80 ){
+	console.log('B');
+} else if (x >= 60) {
+	console.log('C');
+} else {
+	console.log('D');
+}
 
