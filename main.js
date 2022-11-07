@@ -184,7 +184,6 @@ if (x >= 90) {
 } else {
 	console.log('D');
 }
-*/
 
 let birthYear = '2000';
 let age = 18;
@@ -196,3 +195,13 @@ console.log(Number('Nakamura') + age);
 
 console.log(age + '歳');
 console.log(String(age) + '歳');
+*/
+
+let b = true;
+if (b){
+	console.log('はい');
+} else {
+	console.log('いいえ');
+}
+
+console.log(!b)
