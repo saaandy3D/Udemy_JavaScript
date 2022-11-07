@@ -195,7 +195,6 @@ console.log(Number('Nakamura') + age);
 
 console.log(age + '歳');
 console.log(String(age) + '歳');
-*/
 
 let b = true;
 if (b){
@@ -205,3 +204,19 @@ if (b){
 }
 
 console.log(!b)
+*/
+
+let num = 100; //数値型
+let str = '100'; //文字列型
+
+if (num == str) {
+	console.log('同じ');
+} else {
+	console.log('同じではない')
+}
+
+if (num === str) {
+	console.log('同じ');
+} else {
+	console.log('同じではない')
+}
