@@ -259,7 +259,6 @@ let hasGoldLicence = true;
 if (hasDriversLicence && hasGoldLicence){
 	console.log('あなたは優良ドライバーです');
 }
-*/
 
 //例題
 let num = 12;
@@ -277,4 +276,28 @@ if (num % 2 === 0) {
 
 if ((num % 2 === 0) && (num % 3 === 0)) {
 	console.log(`${num}は、2の倍数、かつ、3の倍数です`);
+}
+*/
+
+//例題
+let num = 3 ;
+switch(num) {
+	case 1:
+	  console.log('金賞');
+	  break;
+	case 2:
+	  console.log('銀賞');
+	  break;
+	case 3:
+	  console.log('銅賞');
+	  break;
+	case 4:
+	  console.log('4位');
+	  break;
+	case 5:
+	  console.log('5位');
+	  break;
+	default:
+	  console.log('選外');
+	  break;
 }
