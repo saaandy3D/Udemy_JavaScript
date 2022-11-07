@@ -219,7 +219,6 @@ if (num === str) {
 } else {
 	console.log('同じではない')
 }
-*/
 
 //演習問題
 //①
@@ -234,4 +233,30 @@ if (bmi >= 25) {
 	console.log('普通');
 } else {
 	console.log('痩せ');
+}
+*/
+
+// && 論理AND
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
+// || 論理OR
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+// ! 論理NOT
+console.log(!true);
+console.log(!false);
+// ! && ||
+console.log(false && true || true);
+console.log(false && (true || true));
+
+//例題
+let hasDriversLicence = true;
+let hasGoldLicence = true;
+
+if (hasDriversLicence && hasGoldLicence){
+	console.log('あなたは優良ドライバーです');
 }
