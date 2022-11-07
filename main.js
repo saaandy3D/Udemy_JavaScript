@@ -300,7 +300,6 @@ switch(num) {
 	  console.log('選外');
 	  break;
 }
-*/
 
 //演習問題
 
@@ -328,5 +327,19 @@ switch(num) {
 	  console.log('想定外の数値です。');
 	  break;
 }
-		
-	  
+*/
+
+//undefined 未定義。変数を宣言したが、値は代入していない状態。
+let x;
+console.log(x);
+
+//null 変数は定義されているが、該当するあたいが無い状態。
+let item = null;
+console.log(item);
+
+if (x === undefined) {
+	console.log('undefinedです');
+}
+if (item === null) {
+	console.log('nullです');
+}
