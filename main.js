@@ -568,7 +568,6 @@ let colors = ['Red', 'Green', 'Blue'];
 colors.forEach(function(color){
 	console.log(color)
 });
-*/
 
 //const colors  = ['Red', 'Green', 'Blue'];
 //for(const color of colors) {
@@ -579,3 +578,14 @@ const str = 'JavaScript';
 for(const value of str) {
 	console.log(value);
 }
+*/
+
+//演習問題
+let score = [100, 90, 80, 70, 60, 58, 95];
+let total = 0;
+for(let i = 0; i < score.length; i++) {
+	total += score[i];
+}
+let average = total / score.length;
+console.log(total);
+console.log(average);
