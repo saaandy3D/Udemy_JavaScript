@@ -347,13 +347,17 @@ if (item === null) {
 let age = 19
 let beverage = ( age >= 20 ) ? 'ビール' : 'コーラ';
 console.log(beverage);
-*/
 
 //例題 四角形の面積
+
 function getRectangle(height, width) { //引数
 	return height * width; //戻り値
 }
-
 console.log(getRectangle(3, 5));
+*/
 
+const getRectangle = function(height, width) {
+	return height * width;
+}
+console.log(getRectangle(3, 5)); 
 
