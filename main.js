@@ -376,7 +376,6 @@ function getTotal(price, piece) {
 	return price * piece + ((tax / 100) * price *piece);
 }
 console.log(getTotal(100, 22));
-*/
 
 const displayMessage = function() {
 	console.log('Timeout!');
@@ -391,3 +390,23 @@ function inputUserName(callback) {
 	callback(name);
 }
 inputUserName(greeting);
+*/
+
+let colors = ['Red', 'Green', 'Blue'];
+console.log(colors);
+console.log(colors[0]);
+console.log(colors[1]);
+console.log(colors[2]);
+console.log(colors[3]); // undefined
+
+console.log(colors.length);
+
+console.log(colors[colors.length - 1]);
+
+//データ型
+let arr = [1, '2', 3, ['a', 'b', 'c']];
+console.log(arr);
+
+//からの配列
+let emptyArr = [];
+console.log(emptyArr);
