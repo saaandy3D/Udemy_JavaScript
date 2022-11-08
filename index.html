@@ -3,13 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>テキストの置換</title>
+	<title>属性の追加、変更、削除</title>
+	<style>
+	.red{
+	  color: red;
+	}
+	.blue{
+	  color: blue;
+	}
+
+	</style>
 </head>
 <body>
-	<label for="inputColorName">あなたが好きな色を入力してください</label>
-	<input id="inputColorName" type="text" name="colorName">
-	<button id="triggerButton">実行！</button>
-	<p id="showText">未入力</p>
+	<p id="showText">Hello javaScript!</p>
+	<button id="setRedClassButton" type = "button">
+		class属性を追加・更新（赤）
+	</button>
+	<button id="setBlueClassButton" type = "button">
+		class属性を追加・更新（青）
+	</button>
+	<button id="removeClassButton" type = "button">
+		class属性を削除
+	</button>
 	<script src="main.js">
 	</script>
 </body>
