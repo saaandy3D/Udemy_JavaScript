@@ -363,9 +363,18 @@ console.log(getRectangle(3, 5));
 const getRectangle
 	= new Function('height', 'width', 'return height * width');
 console.log(getRectangle(3, 5)); 
-*/
 
 const getRectangle = (height, width) => {
 	return height * width;
 }
 console.log(getRectangle(3, 5));
+*/
+
+//演習問題
+
+let tax = 10
+function getTotal(price, piece) {
+	return price * piece + ((tax / 100) * price *piece);
+}
+console.log(getTotal(100, 22));
+
