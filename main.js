@@ -2,6 +2,15 @@
 
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
+	let headerTitle = document.getElementById('headerTitle');
+	//テキストの置換
+	headerTitle.textContent = 'タイトルが変更されました';
+}, false);
+
+/*
+let color = 'Blue';
+let btn = document.getElementById('triggerButton');
+btn.addEventListener('click', function(e){
 	//alert('clicked!');
 	//IDによるノード (要素) の取得
 	let headerTitle = document.getElementById('headerTitle');
