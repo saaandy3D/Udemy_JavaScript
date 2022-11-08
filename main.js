@@ -544,7 +544,6 @@ for (let i = 0; i < scores.length; i++) {
 		console.log(scores[i][j]);
 	}
 }
-*/
 
 let i = 1;
 while(i <= 10) {
@@ -554,3 +553,10 @@ while(i <= 10) {
 	}
 	i++;
 }
+*/
+
+let i = 1
+do {
+	console.log(i);
+	i++;
+} while (i <=3);
