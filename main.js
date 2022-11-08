@@ -368,7 +368,6 @@ const getRectangle = (height, width) => {
 	return height * width;
 }
 console.log(getRectangle(3, 5));
-*/
 
 //演習問題
 
@@ -377,4 +376,18 @@ function getTotal(price, piece) {
 	return price * piece + ((tax / 100) * price *piece);
 }
 console.log(getTotal(100, 22));
+*/
 
+const displayMessage = function() {
+	console.log('Timeout!');
+}
+setTimeout(displayMessage, 3000);
+
+function greeting(name) {
+	console.log('Hello!' + name + '-san.');
+}
+function inputUserName(callback) {
+	let name = prompt('あなたのお名前を入力してください!');
+	callback(name);
+}
+inputUserName(greeting);
