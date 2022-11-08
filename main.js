@@ -2,12 +2,22 @@
 
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
+	let elements = document.getElementsByClassName('foo');
+	console.log(elements);
+	for(let i = 0; i < elements.length; i++) {
+		console.log(elements[i].textContent);
+	}
+}, false);
+
+/*
+let btn = document.getElementById('triggerButton');
+btn.addEventListener('click', function(e){
 	let elements = document.getElementsByName('inputText');
 	console.log(elements);
 	console.log(elements[0].value);
 }, false);
 
-/*let btn = document.getElementById('triggerButton');
+let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
 	let elements =  document.getElementsByTagName('p');
 	console.log(elements);
@@ -16,7 +26,6 @@ btn.addEventListener('click', function(e){
 	}
 }, false);
 
-/*
 //class属性を追加・更新（赤）
 let setRedClassButton = document.getElementById('setRedClassButton');
 setRedClassButton.addEventListener('click', function(e){
@@ -38,7 +47,6 @@ removeClassButton.addEventListener('click', function(e){
 	showText.removeAttribute('class');
 }, false);
 
-/*
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
 	//IDによるノードの取得
@@ -53,7 +61,6 @@ btn.addEventListener('click', function(e){
 	showText.textContent = `name属性: ${inputName}, 入力されたテキスト: ${colorNameText}`;
 }, false);
 
-/*
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
 	let headerTitle = document.getElementById('headerTitle');
@@ -61,7 +68,6 @@ btn.addEventListener('click', function(e){
 	headerTitle.textContent = 'タイトルが変更されました';
 }, false);
 
-/*
 let color = 'Blue';
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
@@ -73,7 +79,6 @@ btn.addEventListener('click', function(e){
 	console.log(headerTitle.textContent);
 }, false);
 
-/*
 let color = 'Blue';
 
 console.log('Hello! I\'m Yuta Nakamura');
