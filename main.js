@@ -453,7 +453,6 @@ user.name = 'Taro Yamada';
 user.gender = 'man'
 user.birthYear = 1990;
 console.log(user)
-*/
 
 //オブジェクト初期化子
 let user = { name: 'Taro Yamada', gender: 'man' , birthYear: 1990};
@@ -494,3 +493,16 @@ console.log(mergedObj);
 //空のオブジェクト
 let person = {};
 console.log(person);
+*/
+
+//例題
+let user = {
+	name: 'Taro Yamada',
+	gender: 'man',
+	birthYear: 1990,
+	calcAge: function(thisYear) {
+		return thisYear - this.birthYear;
+				//thisはこのメソッドの事を指していているので、このメソッド内のbirthYearを取得できる。
+	}
+}
+console.log(user.calcAge(2022));
