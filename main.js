@@ -1,5 +1,16 @@
 'use strict';
 
+let btn = document.getElementById('triggerButton');
+btn.addEventListener('click', function(e){
+	let elements =  document.getElementsByTagName('p');
+	console.log(elements);
+	for(let i = 0; i < elements.length; i++) {
+		console.log(elements[i].textContent);
+	}
+}, false);
+
+
+/*
 //class属性を追加・更新（赤）
 let setRedClassButton = document.getElementById('setRedClassButton');
 setRedClassButton.addEventListener('click', function(e){
@@ -20,7 +31,6 @@ removeClassButton.addEventListener('click', function(e){
 	let showText = document.getElementById('showText');
 	showText.removeAttribute('class');
 }, false);
-
 
 /*
 let btn = document.getElementById('triggerButton');
