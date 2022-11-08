@@ -521,7 +521,7 @@ for(let j = 0; j < arr.length; j++) {
 	for(let j = 0; j < 3; j++) {
 		console.log(`i: ${i}, j: ${j}`);
 	}
-}*/
+}
 
 //例題
 const scores = [
@@ -543,4 +543,14 @@ for (let i = 0; i < scores.length; i++) {
 	for(let j  = 0; j < scores[i].length; j++) {
 		console.log(scores[i][j]);
 	}
+}
+*/
+
+let i = 1;
+while(i <= 10) {
+	console.log(i);
+	if(i === 7) {
+		break;
+	}
+	i++;
 }
