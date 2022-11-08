@@ -559,7 +559,6 @@ do {
 	console.log(i);
 	i++;
 } while (i <=3);
-*/
 
 let colors = ['Red', 'Green', 'Blue'];
 //for(let i = 0; i < colors.length; i++) {
@@ -569,3 +568,14 @@ let colors = ['Red', 'Green', 'Blue'];
 colors.forEach(function(color){
 	console.log(color)
 });
+*/
+
+//const colors  = ['Red', 'Green', 'Blue'];
+//for(const color of colors) {
+//	console.log(color);
+//}
+
+const str = 'JavaScript';
+for(const value of str) {
+	console.log(value);
+}
