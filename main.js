@@ -342,9 +342,18 @@ if (x === undefined) {
 if (item === null) {
 	console.log('nullです');
 }
-*/
 
 //三項演算子 条件式 ? trueの場合 : falseの場合
 let age = 19
 let beverage = ( age >= 20 ) ? 'ビール' : 'コーラ';
 console.log(beverage);
+*/
+
+//例題 四角形の面積
+function getRectangle(height, width) { //引数
+	return height * width; //戻り値
+}
+
+console.log(getRectangle(3, 5));
+
+
