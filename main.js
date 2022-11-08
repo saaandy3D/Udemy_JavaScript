@@ -553,10 +553,19 @@ while(i <= 10) {
 	}
 	i++;
 }
-*/
 
 let i = 1
 do {
 	console.log(i);
 	i++;
 } while (i <=3);
+*/
+
+let colors = ['Red', 'Green', 'Blue'];
+//for(let i = 0; i < colors.length; i++) {
+//	console.log(colors[i]);
+//}
+
+colors.forEach(function(color){
+	console.log(color)
+});
