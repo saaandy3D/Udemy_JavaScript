@@ -493,7 +493,6 @@ console.log(mergedObj);
 //空のオブジェクト
 let person = {};
 console.log(person);
-*/
 
 //例題
 let user = {
@@ -506,3 +505,14 @@ let user = {
 	}
 }
 console.log(user.calcAge(2022));
+*/
+
+// 例題
+for(let i = 1; i <= 3; i++) {
+	console.log(i);
+}
+
+let arr = ['a', 'b', 'c']
+for(let j = 0; j < arr.length; j++) {
+	console.log(arr[j]);
+}
