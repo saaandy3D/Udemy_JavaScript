@@ -354,10 +354,14 @@ function getRectangle(height, width) { //引数
 	return height * width; //戻り値
 }
 console.log(getRectangle(3, 5));
-*/
 
 const getRectangle = function(height, width) {
 	return height * width;
 }
+console.log(getRectangle(3, 5)); 
+*/
+
+const getRectangle
+	= new Function('height', 'width', 'return height * width');
 console.log(getRectangle(3, 5)); 
 
