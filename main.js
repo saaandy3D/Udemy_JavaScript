@@ -1,4 +1,15 @@
 'use strict';
+
+let btn = document.getElementById('triggerButton');
+btn.addEventListener('click', function(e){
+	//alert('clicked!');
+	//IDによるノード (要素) の取得
+	let headerTitle = document.getElementById('headerTitle');
+	console.log(headerTitle);
+	//コンテンツの取得 (テキストの取得)
+	console.log(headerTitle.textContent);
+}, false);
+
 /*
 let color = 'Blue';
 
@@ -578,7 +589,6 @@ const str = 'JavaScript';
 for(const value of str) {
 	console.log(value);
 }
-*/
 
 //演習問題
 let score = [100, 90, 80, 70, 60, 58, 95];
@@ -589,3 +599,4 @@ for(let i = 0; i < score.length; i++) {
 let average = total / score.length;
 console.log(total);
 console.log(average);
+*/
