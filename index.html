@@ -6,15 +6,12 @@
 	<title>クラス名で要素を取得</title>
 </head>
 <body>
-    <ul>
-	<li class="foo">要素1</li>
-	<li class="bar">要素2</li>
-	<li class="foo">要素3</li>
-	<li>要素4</li>
-	<li class="bar">要素5</li>
-    </ul>
-	<button id="triggerButton" type="button">実行!</button>
-	<script src="main.js">
-	</script>
+    <ul id ="languageList"></ul>
+    <label for="inputLanguage">あなたが学習したいプログラミング言語を教えてください</label>
+    <input type="text" id="inputLanguage" name="inputLanguage">
+    <button id="addButton">追加</button>
+    <button id="removeButton">最後の項目を削除</button>
+    <script src="main.js">
+    </script>
 </body>
 </html>
