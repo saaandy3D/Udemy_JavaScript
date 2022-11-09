@@ -1,5 +1,27 @@
 'use strict';
 
+//コンソールに出力する
+//window.console.log('Hello');
+
+//警告表示
+//window.alert('Are you OK?');
+
+//確認ダイアログ
+//window.confirm('Are you OK?');
+
+//別のwindowを開く
+//window.open('https:www.google.co.jp');
+
+//windowを閉じる
+//window.close();
+
+//スクロール
+let btn = document.getElementById('triggerButton');
+btn.addEventListener('click', function(e){
+	window.scroll(0, 800)
+}, false);
+
+/*
 let addButton = document.getElementById('addButton');
 addButton.addEventListener('click', function(e){
 	//入力欄のinput要素を取得
@@ -30,7 +52,6 @@ removeButton.addEventListener('click', function(e){
 	languageList.removeChild(languageList.lastElementChild);
 }, false);
 
-/*
 let btn = document.getElementById('triggerButton');
 btn.addEventListener('click', function(e){
 	let element = document.querySelector('.foo');
