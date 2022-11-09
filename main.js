@@ -1,5 +1,17 @@
 'use strict';
 
+// DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function() {
+  alert('DOMContentLoaded!');
+}, false);
+
+// load
+window.onload = function() {
+  const nowLoading = document.getElementById('nowLoading');
+  nowLoading.style.display = 'none';
+}
+
+/*
 //イベントハンドラ
 function handleChange() {
 	const checkAll = document.getElementById('checkAll');
@@ -11,7 +23,6 @@ function handleChange() {
 const ca = document.getElementById('checkAll');
 ca.addEventListener('change', handleChange, false);
 
-/*
 const sayHelloButton = document.getElementById('sayHelloButton');
 function sayHelloEventHandler(e) {
 	console.log('Hello!');
