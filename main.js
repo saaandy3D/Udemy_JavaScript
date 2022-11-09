@@ -1,5 +1,22 @@
 'use strict';
 
+let x = 0;
+
+number.textContent = x;
+
+let addButton = document.getElementById('addButton');
+addButton.addEventListener('click', function(e){
+	x += 1;
+	number.textContent = x;
+}, false);
+
+let resetButton = document.getElementById('resetButton');
+resetButton.addEventListener('click', function(e){
+	x = 0;
+	number.textContent = x;
+}, false);
+
+/*
 // DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() {
   alert('DOMContentLoaded!');
@@ -11,7 +28,6 @@ window.onload = function() {
   nowLoading.style.display = 'none';
 }
 
-/*
 //イベントハンドラ
 function handleChange() {
 	const checkAll = document.getElementById('checkAll');
